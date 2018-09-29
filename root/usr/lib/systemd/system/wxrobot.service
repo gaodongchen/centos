@@ -1,0 +1,12 @@
+[Unit]
+Description=微信机器人服务
+After=network.target
+
+[Service]
+EnvironmentFile=/etc/sysconfig/wxrobot
+ExecStart=/usr/local/bin/wxrobot --conf /etc/wxrobot.json
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+
