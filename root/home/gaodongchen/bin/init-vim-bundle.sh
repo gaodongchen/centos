@@ -29,5 +29,5 @@ git clone https://github.com/mhinz/vim-signify.git && \
 git clone https://github.com/justinmk/vim-sneak.git && \
 git clone https://github.com/pbrisbin/vim-mkdir.git && \
 git clone https://github.com/nicwest/vim-http.git && \
-git clone https://github.com/JarrodCTaylor/vim-shell-executor.git \
+git clone https://github.com/JarrodCTaylor/vim-shell-executor.git && \
 cd $HOME
