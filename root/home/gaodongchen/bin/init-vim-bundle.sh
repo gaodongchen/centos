@@ -11,7 +11,6 @@ git clone https://github.com/vim-scripts/The-NERD-tree.git && \
 git clone https://github.com/vim-scripts/The-NERD-Commenter.git && \
 git clone https://github.com/vim-airline/vim-airline.git && \
 git clone https://github.com/easymotion/vim-easymotion.git && \
-git clone https://github.com/airblade/vim-gitgutter.git && \
 git clone https://github.com/luochen1990/rainbow.git && \
 git clone https://github.com/svermeulen/vim-easyclip.git && \
 git clone https://github.com/Yggdroot/indentLine.git && \
