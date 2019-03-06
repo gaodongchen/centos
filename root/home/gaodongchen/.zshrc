@@ -1,8 +1,4 @@
-#!/bin/bash
-
-if [ ! -x "$HOME/.antigen.zsh"]; then
-    curl -L git.io/antigen | sudo tee $HOME/.antigen.zsh
-    if
+#!/bin/zsh
 
 source $HOME/.antigen.zsh && \
 antigen use oh-my-zsh && \
@@ -20,5 +16,3 @@ antigen apply
 
 bindkey -M emacs '^P' history-substring-search-up && \
 bindkey -M emacs '^N' history-substring-search-down
-
-chmod 755 -R $HOME/.antigen/bundles/
